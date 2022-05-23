@@ -1,5 +1,5 @@
 .container{
-    width: 1000px;
+    width: 980px;
     background-color: silver;
     display: inline-block;
 }
@@ -13,7 +13,8 @@
     height: 300px;
     width: 200px;
     background-color: blue;
-    margin: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
     display: inline-block;
 }
 .main {
@@ -29,7 +30,8 @@
     width: 210px;
     background-color: yellow;
     display: inline-block;
-    margin: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .advertisement {
     height: 120px;
