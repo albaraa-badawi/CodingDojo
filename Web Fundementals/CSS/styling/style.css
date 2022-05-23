@@ -1,0 +1,28 @@
+#first{
+    color: white;
+    background-color: black;
+    font-family: cursive;
+    margin: 1%;
+}
+
+#first span {
+    color: aqua;
+}
+
+#second{
+    color: white;
+    background-color: rebeccapurple;
+    font-weight:lighter;
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 1%;
+}
+
+#third{
+    background-color: rgb(87, 179, 255);
+    font-family: cursive;
+    text-decoration: underline;
+    text-align: right;
+    margin: 1%;
+}
