@@ -1,0 +1,11 @@
+.nav{
+    display: flex;
+    background-color: azure;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.nav-links{
+    display: flex;
+    background-color: aquamarine;
+}
