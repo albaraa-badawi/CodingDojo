@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: block;
+}
+.nav{
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+.nav1{
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Roboto', sans-serif;
+    min-width: 60%;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    min-width: 60%;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: #17a2b8;
+    border: 3px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+    
+/* styles to apply to body */
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    width: 70%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+.content-container{
+    display: flex;
+    margin-top: 3%;
+}
+.content-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 3;
+}
+.ncard{
+    width: 70%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.ncard-header{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.ncard-body{
+    padding: 5% 2%;
+}
+.ncard-body h1, 
+.ncard-body h2,
+.ncard-body h3,
+.ncard-body p {
+    margin: 10px 0px;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    flex: 2;
+}
+.number{
+    display: inline;
+    padding: 3px 8px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.title{
+    display: inline;
+    margin-left: 2%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+.profile-pic{
+    height: 50px;
+    border-radius: 50%;
+}
+.push{
+    margin-left: auto;
+    margin-right: 5px;
+}
+.last{
+    margin-bottom: 0%;
+}
+.row h3{
+    margin-left: 10px;
+}
+.more{
+    border-top: 3px solid #ccc;
+}
