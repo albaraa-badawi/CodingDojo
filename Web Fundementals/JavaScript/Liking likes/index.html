@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="website">
+            <div id="header">
+                <h1>Network</h1>
+            </div>
+            <div id="nav-bar">
+                <h1>Your Feed</h1>
+            </div>
+            <div id="content">
+                <div id="main">
+                    <div id="profile">
+                        <img src="icons/user-circle.png" alt="user-circle.png">
+                        <br>
+                        <h4><a href="#">Add an avatar</a></h4>
+                        <br>
+                        <h2>James Doe</h2>
+                    </div>
+                </div>
+                <div id="side-bar">
+                    <div class="card">
+                        <div class="top">
+                            <h2>Neil M</h2>
+                            <div class="likes">
+                                <p>9 like(s)</p>
+                                <button class="btn" onclick="like('0')">Like</button>
+                            </div>
+                        </div>
+                        <div class="feed">
+                            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="top">
+                            <h2>Nichole K</h2>
+                            <div class="likes">
+                                <p>12 like(s)</p>
+                                <button class="btn" onclick="like('1')">Like</button>
+                            </div>
+                        </div>
+                        <div class="feed">
+                            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="top">
+                            <h2>Jim R</h2>
+                            <div class="likes">
+                                <p>9 like(s)</p>
+                                <button class="btn" onclick="like('2')">Like</button>
+                            </div>
+                        </div>
+                        <div class="feed">
+                            <p>I can't stop listening to the <a href="#">new album.</a><br>Who else is liking it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
