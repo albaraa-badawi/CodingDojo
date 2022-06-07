@@ -1,0 +1,24 @@
+pip list 
+it lists all the Python packages installed in an environment
+
+deactivate
+it deactivates virtual environment
+
+pip3 list
+it lists all the Python packages installed
+
+pip install Django==2.2.4
+it install the packages with the specified version
+
+pip freeze
+it lists installed packages in a case insensitive sorted order. Output generated using Freeze command is in the <package name>==<version>
+List command is similar to the pip freeze command except command lists installed packages along with their versions in a two column tabular format.
+
+pip freeze > requirements.txt
+generate a requirements file using freeze command, it has all the packages installed in the environment
+
+pip uninstall Django
+it uninstalls the specified package
+
+pip show Django
+it shows information about a specified package, if the package is not installed it returns WARNING: Package(s) not found:
