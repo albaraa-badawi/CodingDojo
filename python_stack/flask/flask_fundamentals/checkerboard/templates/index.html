@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkerboard</title>
     <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    <style>
+        .light{
+            background-color: {{color1}};
+        }
+        .dark{
+            background-color: {{color2}};
+        }
+    </style>
 </head>
 <body>
     <div id="container">
